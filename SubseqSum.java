@@ -10,7 +10,7 @@ public class SubseqSum {
 
     public static void sumSubseq(int index, ArrayList<Integer> store, int s, int sum, int arr[]){
         if(index == arr.length){
-            if(s == sum){
+:            if(s == sum){
                 for (int el: store) {
                     System.out.print(el);
                 }
